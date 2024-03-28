@@ -1,0 +1,47 @@
+body {
+  font-family: "PT Serif", serif;
+}
+
+.bg-yellow {
+  background-color: #fefefe;
+}
+
+.border-bottom-dark {
+  border-bottom: 1px solid #242424;
+}
+
+.aside-bottons > li {
+  margin-bottom: 10px;
+}
+
+#ilk {
+  color: green;
+  text-decoration: none;
+}
+
+#ilk:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.border-top-new {
+  border-top: 1px solid #f2f2f2;
+}
+
+.nav-link2 {
+  width: 40px; /* Fotoğrafın genişliği */
+  height: 40px; /* Fotoğrafın yüksekliği */
+  border-radius: 20%; /* Yuvarlak şekil için */
+  overflow: hidden; /* İçeriklerin dışarı taşmasını önler */
+  display: flex; /* İçeriğin dikey ve yatay hizalanmasını sağlar */
+  justify-content: center; /* İçeriğin yatayda ortalanmasını sağlar */
+  align-items: center; /* İçeriğin dikeyde ortalanmasını sağlar */
+  background-color: #000; /* Arka plan rengi, isteğe bağlı */
+}
+
+.nav-link2 img {
+  width: 100%; /* Fotoğrafın genişliği, yuvarlak alana sığacak şekilde */
+
+  border-radius: 50%;
+  object-fit: cover;
+}
